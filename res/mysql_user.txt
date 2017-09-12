@@ -1,0 +1,13 @@
+root
+
+hash = "proxytest.{2}.{0}.{1}.fq1ezq.ceye.io".format(domain,port,str(random.randrange(1000,9999)))
+	    try:
+		    #varify(ip,port,hash,"proxy")
+		    res = requests.get("http://{}".format(hash),proxies={"http":"{}:{}".format(domain,port)},timeout = 20)
+		    title = re.findall("<title>(.*?)</title>", res.text)
+		    if len(title) > 0:
+			    title = title[0]
+		    else:
+			    title = ""
+		    saveFile("{0}:{1}-----{2}------{3}".format(domain, port, title, len(res.text)),
+		             "/tmp/proxytest")

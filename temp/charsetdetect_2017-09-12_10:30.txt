@@ -1,0 +1,14 @@
+http://123.129.215.253:80/:text/html; charset=gb2312
+http://113.105.222.177:80/:text/html; charset=gb2312
+http://download.china.alibaba.com:8101/:text/html; charset=gb2312
+http://download.china.alibaba.com:8101/:text/html; charset=gb2312
+http://www.haibaoyl.com:8101/:text/html; charset=gb2312
+http://img03.taobao.com:80/:text/html; charset=gb2312
+https://a.taobao.com:443/:text/html; charset=gb2312
+http://140.205.220.4:80/:text/html;charset=gbk
+https://app.etao.com:443/:text/html; charset=gb2312
+https://cn.taobao.com:443/:text/html; charset=gb2312
+http://27.221.30.112:80/:text/html; charset=gb2312
+http://miao.detail.tmall.com:8101/:text/html;charset=gbk
+http://113.105.222.173:80/:text/html; charset=gb2312
+http://live.tmall.com:80/:text/html;charset=gbk
